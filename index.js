@@ -51,7 +51,7 @@ dynamicsWebApi.executeUnboundFunction("WhoAmI").then(function (response) {
 app.use(express.static(__dirname));
 
 app.get('/', function (req, res) {
-    apicall.getToken("Aventure", "Works", "This is good message", "9176727764", "ursfriendly_sri@yahoo.com", "normal", "createCase");
+   // apicall.getToken("Aventure", "Works", "This is good message", "9176727764", "ursfriendly_sri@yahoo.com", "normal", "createCase");
     res.send("Hello World");
 });
 
