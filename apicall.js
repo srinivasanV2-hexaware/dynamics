@@ -4,7 +4,7 @@ var crmorg = 'https://hexaware2.api.crm8.dynamics.com';//OLD :https://vfs365.api
 var clientid = '9cd9a017-0ffd-4493-a4da-b9e1722035db';//OLD:  d1f82629-cec9-42b8-8a64-aab98b2d6189
 var username = 'srinivasanV3@hexaware.onmicrosoft.com';//OLD :crmadmin@VFS365.onmicrosoft.com
 var userpassword = 'Srini_2312';//OLD : Hexaware@123
-var tokenendpoint = 'https://login.microsoftonline.com/9cd9a017-0ffd-4493-a4da-b9e1722035db/oauth2/token';//https://login.windows.net/0b78e424-1823-4673-8d71-295823333a8d/oauth2/token
+var tokenendpoint = 'https://login.microsoftonline.com/7c0c36f5-af83-4c24-8844-9962e0163719/oauth2/token';//https://login.windows.net/0b78e424-1823-4673-8d71-295823333a8d/oauth2/token
 
 //set these values to query your crm data
 var crmwebapihost = 'hexaware2.api.crm8.dynamics.com';
