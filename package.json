@@ -11,6 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "adal-node": "^0.1.28",
+    "dynamics-web-api": "^1.4.2",
     "express": "^4.16.3",
     "request": "^2.85.0"
   }
