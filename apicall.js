@@ -1,13 +1,13 @@
 'use strict';
 var https = require('https');
-var crmorg = 'https://hexaware2.crm8.dynamics.com';//OLD :https://vfs365.api.crm8.dynamics.com
+var crmorg = 'https://hexaware2.api.crm8.dynamics.com';//OLD :https://vfs365.api.crm8.dynamics.com
 var clientid = '9cd9a017-0ffd-4493-a4da-b9e1722035db';//OLD:  d1f82629-cec9-42b8-8a64-aab98b2d6189
 var username = '40140@hexaware.onmicrosoft.com';//OLD :crmadmin@VFS365.onmicrosoft.com
 var userpassword = 'Srini_2312';//OLD : Hexaware@123
 var tokenendpoint = 'https://login.microsoftonline.com/fe251855-6670-42ad-a88e-2ac8a0b9ef13/oauth2/token';//https://login.windows.net/0b78e424-1823-4673-8d71-295823333a8d/oauth2/token
 
 //set these values to query your crm data
-var crmwebapihost = 'hexaware2.crm8.dynamics.com';
+var crmwebapihost = 'hexaware2.api.crm8.dynamics.com';
 var crmwebapipath = '/api/data/v9.0/contacts?$select=fullname,contactid'; //basic query to select contacts
 var postpathincident='/api/data/v9.0/incidents';
 var postpathcontact='/api/data/v9.0/contacts';
